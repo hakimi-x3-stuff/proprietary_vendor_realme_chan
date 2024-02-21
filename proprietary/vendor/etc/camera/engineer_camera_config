@@ -273,17 +273,31 @@
 	},
 
 	{
-		"VendorTag": "com.oplus.engineercamera.configure.dual.arcsoft.calibrate.aftersale.support",
+		"VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.calibrate.aftersale.support",
 		"Type": "Byte",
 		"Count": "1",
-		"Value": "0"
+		"Value": "1"
+	},
+
+	{
+		"VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.cal.support",
+		"Type": "Byte",
+		"Count": "1",
+		"Value": "1"
+	},
+
+	{
+		"VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.ver.support",
+		"Type": "Byte",
+		"Count": "1",
+		"Value": "1"
 	},
 
 	{
 		"VendorTag": "com.oplus.engineercamera.configure.triple.calibrate.aftersale.support",
 		"Type": "Byte",
 		"Count": "1",
-		"Value": "1"
+		"Value": "0"
 	},
 
 	{

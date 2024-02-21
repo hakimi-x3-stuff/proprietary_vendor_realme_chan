@@ -57,14 +57,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.aps.params.sn.skelname",
-  "Type": "String",
-  "Count": "2",
-  "Value": "  libarcsoft_hdrplus_hvx_5221_skel.so, libarcsoft_psn_hvx_5221_skel.so",
-  "Comment": "rear, front"
-},
-
-{
   "VendorTag": "com.oplus.sat.tele.zoom.range",
   "Type": "Float",
   "Count": "2",
@@ -88,18 +80,18 @@
 {
   "VendorTag": "com.oplus.aps.decision.override",
   "Type": "String",
-  "Count": "16",
-  "Value": "19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781, 19781"
+  "Count": "18",
+  "Value": "19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696, 19696"
 },
 
 {
   "VendorTag": "com.oplus.aps.params.bokeh",
   "Type": "Int32",
   "Count": "78",
-  "Value": "  0,      2,      0,              0,           0,                     8,                   4608,3456,4608,3456,4608,3456,4608,3456,1,0,          2304,1728,2304,1728,2304,1728,2304,1728,1,0,
-              270,    2,      0,              0,           0,                     8,                   3280,2464,3280,2464,3280,2464,3280,2464,1,0,          2304,1728,2304,1728,2304,1728,2304,1728,1,0,
-              0,      1,      0,              1,           0,                     8,                   4000,3000,4000,3000,4000,3000,4000,3000,1,0,          4608,3456,4608,3456,4608,3456,4608,3456,1,0",
-  "Comment": "rotation, mode, dualCalitype,  isTeleMaster, isAppSetBlurintensity, foregroundBlurScale,   masterImageInfo /*struct cameraImageSize_t*/,       slaveImageInfo /*struct cameraImageSize_t*/"
+  "Value": "  0,      2,      0,              0,            0,                       8,                   4608,3456,4608,3456,4608,3456,1440,1080,0,2,          2304,1728,2304,1728,2304,1728,1440,1080,0,2,
+              270,    2,      0,              0,            0,                       8,                   3280,2464,3280,2464,3280,2464,1440,1080,0,2,          2304,1728,2304,1728,2304,1728,1440,1080,0,2,
+              0,      1,      0,              0,            0,                       8,                   4608,3456,2304,1728,4608,3456,1440,1080,0,2,          2304,1728,2304,1728,2304,1728,1440,1080,0,2",
+  "Comment": "rotation, mode, dualCalitype,  isTeleMaster,  isAppSetBlurintensity,  foregroundBlurScale,   masterImageInfo /*struct cameraImageSize_t*/,       slaveImageInfo /*struct cameraImageSize_t*/"
 },
 
 {
@@ -123,7 +115,7 @@
   "VendorTag": "com.oplus.aps.params.rectify",
   "Type": "Int32",
   "Count": "8",
-  "Value": "  7,           2,                 -1,                     3441,        50,           210,               1,              1",
+  "Value": "  8,           2,                 5,                      3441,        50,           210,               1,              1",
   "Comment": "satCameraId, ultraWideCameraId, frontUltraWideCameraId, caliDataLen, estimateTime, runTimeMemSize,  userArcPreview, useArcCapture"
 },
 
@@ -157,6 +149,14 @@
   "Count": "2",
   "Value": "  3,            0",
   "Comment": "estimateTime, runTimeMemSize"
+},
+
+{
+  "VendorTag": "com.oplus.aps.params.sn.skelname",
+  "Type": "String",
+  "Count": "2",
+  "Value": "  libarcsoft_hdrplus_hvx_5221_skel.so, libarcsoft_psn_hvx_5221_skel.so",
+  "Comment": "rear, front"
 },
 
 {
