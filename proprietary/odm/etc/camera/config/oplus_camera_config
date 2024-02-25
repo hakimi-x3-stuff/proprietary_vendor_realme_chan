@@ -67,7 +67,7 @@
   "VendorTag": "com.oplus.sat.tele.support.imagesizes",
   "Type": "Int32",
   "Count": "8",
-  "Value": "4000x3000x4000x2250x4000x1808x3000x3000"
+  "Value": "3264x2448x3264x1836x3200x1440x2448x2448"
 },
 
 {
@@ -186,7 +186,7 @@
   "VendorTag": "com.oplus.face.rectify.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "0"
+  "Value": "1"
 },
 
 {
@@ -316,6 +316,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.ultrawide.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.front.feature.video.super.eis.support",
   "Type": "Byte",
   "Count": "1",
@@ -326,7 +333,7 @@
   "VendorTag": "com.oplus.feature.video.super.eis.wide.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "0"
+  "Value": "1"
 },
 
 {
@@ -417,7 +424,7 @@
   "VendorTag": "com.oplus.sat.main.zoom.range",
   "Type": "Float",
   "Count": "1",
-  "Value": "1.0,2.0"
+  "Value": "1.0,5.0"
 },
 
 {
@@ -529,7 +536,7 @@
   "VendorTag": "com.oplus.portrait.half.body.remosaic.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "0"
+  "Value": "1"
 },
 
 {
@@ -669,7 +676,7 @@
   "VendorTag": "com.oplus.feature.front.slow.video.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "0"
+  "Value": "1"
 },
 
 {
@@ -708,6 +715,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.feature.none.sat.front.mode",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "common,commonVideo,night"
+},
+
+{
   "VendorTag": "com.oplus.feature.high.definition.support",
   "Type": "Byte",
   "Count": "1",
@@ -718,7 +732,7 @@
   "VendorTag": "com.oplus.portrait.zoom.value.default",
   "Type": "Int32",
   "Count": "1",
-  "Value": "2.0"
+  "Value": "1.0"
 },
 
 {
@@ -733,34 +747,6 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
-},
-
-{
-  "VendorTag": "com.oplus.hal.memory.common.support.difference",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.hal.memory.common.6G",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "800"
-},
-
-{
-  "VendorTag": "com.oplus.hal.memory.common.8G",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "1265"
-},
-
-{
-  "VendorTag": "com.oplus.hal.memory.common.12G",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "1565"
 },
 
 {
@@ -781,7 +767,7 @@
   "VendorTag": "com.oplus.feature.front.eis.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "0"
+  "Value": "1"
 },
 
 {
@@ -816,14 +802,14 @@
   "VendorTag": "com.oplus.rear.portrait.previewsize",
   "Type": "Int32",
   "Count": "2",
-  "Value": "1440x1080"
+  "Value": "960x720"
 },
 
 {
   "VendorTag": "com.oplus.front.portrait.previewsize",
   "Type": "Int32",
   "Count": "2",
-  "Value": "1440x1080"
+  "Value": "960x720"
 },
 
 {
@@ -897,13 +883,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.arscoft.single.bokeh.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.surpernight.reprocess.preview.support",
   "Type": "Byte",
   "Count": "1",
@@ -925,14 +904,49 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.slow.video.support",
+  "VendorTag": "com.oplus.night.pro.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
 },
 
 {
+  "VendorTag": "com.oplus.starry.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.night.starry.zoom.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.night.starry.process.time",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "28000"
+},
+
+{
   "VendorTag": "com.oplus.zsl.support.preversion",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.video.front.facebeauty.level",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "40"
+},
+
+{
+  "VendorTag": "com.oplus.isUWFixedFocus",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
@@ -949,14 +963,14 @@
   "VendorTag": "com.oplus.feature.screen.bright.threshold",
   "Type": "Int32",
   "Count": "1",
-  "Value": "395"
+  "Value": "340"
 },
 
 {
   "VendorTag": "com.oplus.feature.screen.bright.recover.threshold",
   "Type": "Int32",
   "Count": "1",
-  "Value": "375"
+  "Value": "320"
 },
 
 {
@@ -964,6 +978,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.starry.mode.support.preversion",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 
 ]

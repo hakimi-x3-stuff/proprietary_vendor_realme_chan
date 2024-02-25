@@ -43,6 +43,41 @@
 },
 
 {
+  "Key": "NORMAL_RAWHDR_OUTDOOR_ISO",
+  "Value": "160"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_OUTDOOR_FACE_ISO",
+  "Value": "250"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_INDOOR_ISO",
+  "Value": "400"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_INDOOR_FACE_ISO",
+  "Value": "500"
+},
+
+{
+  "Key": "REAR_LOWLIGHT_YUVHDR_ISO",
+  "Value": "1100"
+},
+
+{
+  "Key": "REAR_LOWLIGHT_MFNR_ISO",
+  "Value": "3180"
+},
+
+{
+  "Key": "TRIGGER_QUADCFA_ISO",
+  "Value": "350"
+},
+
+{
   "Key": "NIGHT_SCENE_LUX_INDEX_NIGHT_MIN",
   "Value": "300"
 },
@@ -53,18 +88,13 @@
 },
 
 {
-  "Key": "REAR_LOWLIGHT_MFNR_ISO",
-  "Value": "3180"
-},
-
-{
   "Key": "NIGHT_SCENE_SENSOR_BAYER_PATTERN",
   "Value": "1"
 },
 
 {
   "Key": "NIGHT_SCENE_CAMERA_MODE",
-  "Value": "1314"
+  "Value": "1347"
 },
 
 {
